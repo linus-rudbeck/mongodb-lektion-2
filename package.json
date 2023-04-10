@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-lektion-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linus-rudbeck/mongodb-lektion-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linus-rudbeck/mongodb-lektion-2/issues"
+  },
+  "homepage": "https://github.com/linus-rudbeck/mongodb-lektion-2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "mongodb": "^5.2.0"
+  }
+}
