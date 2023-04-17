@@ -11,11 +11,8 @@ async function main(){
     const db = client.db(dbName);
     const collection = db.collection("cars");
 
-    // await addNewCar(collection);
     await updateCar(collection);
     await findAllCars(collection);
-
-
 
     return "done!";
 }
